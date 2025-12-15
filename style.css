@@ -1,0 +1,52 @@
+body{
+  background-color: hsl(14, 81%, 54%);
+  text-align: center;
+
+}
+
+h1{
+  color: hsl(0, 0%, 100%);
+  font-size: 3em;
+  margin-top: 65px;
+  font-family: 'Arial', sans-serif;
+}
+button{
+
+  background-color: hsl(110, 89%, 46%);
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  font-style: bold;
+  cursor: pointer;
+  color: hsl(0, 1%, 18%);
+  margin: 25px;
+
+}
+button:hover{
+  background-color: hsl(110, 89%, 50%);
+}
+button:active{
+  background-color: hsl(110, 89%, 40%);
+}
+img{
+  width: 300px;
+  height: auto;
+  margin-top: 3%;
+  box-shadow: 10px 10px 30px hsl(0, 0%, 0%);
+}
+p{
+  color: hsl(0, 0%, 100%);
+  font-size: 1.2em;
+  font-family: 'Arial', sans-serif;
+  margin: 10px;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  h1{
+    margin-top: 45px;
+    font-size: 2em;
+  }
+
+}
